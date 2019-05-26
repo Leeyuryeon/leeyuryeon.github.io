@@ -65,9 +65,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #ffc107;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(109, 253, 253)
 }
 
 [tabindex="-1"]:focus {
@@ -161,13 +161,13 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: #84ffe4;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #d6370c;
+  color: #76d1e7;
   text-decoration: underline;
 }
 
@@ -220,7 +220,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #ffc107;
   text-align: left;
   caption-side: bottom;
 }
@@ -433,7 +433,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(11, 14, 233, 0.918);
 }
 
 small,
@@ -445,7 +445,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #ffd506;
 }
 
 .list-unstyled {
@@ -479,7 +479,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d;
+  color: #ffc107;
 }
 
 .blockquote-footer::before {
@@ -493,8 +493,8 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: #ed969e;
+  border: 1px solid #e4606d;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -511,7 +511,7 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #6c757d;
+  color: #ffc107;
 }
 
 code {
@@ -527,8 +527,8 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
-  color: #fff;
-  background-color: #212529;
+  color: rgb(176, 255, 251);
+  background-color: #ffc107;
   border-radius: 0.2rem;
 }
 
@@ -541,7 +541,7 @@ kbd kbd {
 pre {
   display: block;
   font-size: 87.5%;
-  color: #212529;
+  color: #ffc107;
 }
 
 pre code {
